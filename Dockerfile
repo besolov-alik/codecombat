@@ -6,5 +6,5 @@ RUN /build
 ENV PORT=3000
 EXPOSE 3000
 WORKDIR /app
-ENTRYPOINT [ "/bin/herokuish", "procfile" ]
-CMD [ "start", "web" ]
+ENTRYPOINT [ "/bin/herokuish" ]
+CMD [ "procfile", "start", "web" ]
