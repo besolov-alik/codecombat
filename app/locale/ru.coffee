@@ -1,4 +1,4 @@
-module.exports = nativeDescription: "русский", englishDescription: "Russian", translation:
+module.exports = nativeDescription: "Русский", englishDescription: "Russian", translation:
   home:
     slogan: "Научитесь программировать, играя в игру"
     no_ie: "CodeCombat не работает в IE8 или более старых версиях. Нам очень жаль!" # Warning that only shows up in IE8 and older
